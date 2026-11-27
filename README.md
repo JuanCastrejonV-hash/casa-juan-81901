@@ -13,22 +13,47 @@ Se incluyen los históricos auditados de MEXC, los 15 modelos entrenados en NVID
 
 La aplicación React/TypeScript está compilada y el backend implementa autenticación, inferencia local, controles de riesgo, ejecución exclusivamente Paper y persistencia SQLite. Se verificaron 33 pruebas y se completaron 30 ciclos históricos de BTCUSDT con Ollama local. El cierre al 20 de noviembre de 2026 dio un rendimiento neto de -2.54% en las tres estrategias. La comparación, las propuestas y las bases Paper están en `evidencia/replay_BTCUSDT/`.
 
+## Demostración rápida
+
+1. Descomprime el ZIP y abre `Abrir_Casa_Juan_81901.html`. La vista **Histórico** inicia en BTCUSDT con la evidencia de la entrega.
+2. En **Mercado → Gráfico y señal**, muestra las velas de MEXC Spot con sus fechas UTC, el cierre y la SMA20. En **Oficina**, pulsa **Reproducir ciclo** para seguir una decisión del agente.
+3. En **Simulación → Operaciones**, elige **Con Ollama** para mostrar **Ganancia / pérdida**, las compras y ventas de **Órdenes ejecutadas** y su columna **PnL · USDT**. Puedes descargar el CSV desde esa tabla.
+4. En **Simulación → Comparativa**, revisa patrimonio final, retorno y caída máxima de las tres estrategias. En **Control → Auditoría**, muestra el veto por posición abierta.
+
+La vista histórica funciona con los archivos de mercado y el replay incluidos. Para consultar velas nuevas, abre la aplicación local y selecciona **En vivo**.
+
+## Versiones y avances
+
+| Versión o etapa | Avance verificable | Evidencia |
+| --- | --- | --- |
+| Cuaderno T4 | Descarga y auditoría de MEXC, entrenamiento de 15 modelos, evaluación cronológica y exportación con hashes. | [Cuaderno ejecutado](https://colab.research.google.com/drive/1rBr_In1QC-_EjRIY7omLMOP92adsXyxk?usp=sharing) y [verificación de la entrega](evidencia/verificacion_entrega.json) |
+| API y aplicación web 1.0.0 | FastAPI, vista React, inferencia local, riesgo determinista, operaciones Paper y bitácora SQLite. | [Configuración](config/project.json), [paquete web](frontend/package.json) y [arquitectura](docs/Arquitectura_y_Demo_Casa_Juan.md) |
+| Casa Juan 2.0.0 | Oficina animada con las etapas del agente, vista histórica reproducible y laboratorio que evalúa 144 configuraciones por activo. | [Verificación de Casa Juan](evidencia/verificacion_entrega.json) y [laboratorio](docs/Investigacion_y_Laboratorio_Casa_Juan.md) |
+| Entrega del 27 de noviembre de 2026 | Repositorio público, CI de TypeScript y Python, informe y autoevaluación de 35 indicadores. | [Historial de Git](https://github.com/JuanCastrejonV-hash/casa-juan-81901/commits/main/) y [autoevaluación](docs/Evaluacion_Rubrica_Casa_Juan_81901.pdf) |
+
+La inferencia verificada usó TensorFlow CPU 2.21.0, Keras 3.13.2 y scikit-learn 1.6.1. El [archivo de dependencias web](frontend/package-lock.json) fija React 19.3.1, TypeScript 5.9.3 y Vite 7.3.8. El replay de BTCUSDT usó Ollama 0.40.16 con `qwen3:0.6b`. [Evidencia de inferencia y Ollama](evidencia/replay_BTCUSDT/verificacion_inferencia.json)
+
 ## Revisión de la entrega
 
+- [Guía de entrega](Guia_Entrega_81901.md)
+- [Informe académico a dos columnas](docs/Informe_Juan_Fernando_Castrejon_Villa_Dos_Columnas.pdf) y [matriz de cumplimiento](docs/Matriz_Cumplimiento.csv)
 - [Autoevaluación con los 35 indicadores](docs/Evaluacion_Rubrica_Casa_Juan_81901.pdf)
 
-El [diagrama de arquitectura, rutas REST y plan de demostración](docs/Arquitectura_y_Demo_Casa_Juan.md) documenta el ciclo y los controles Paper. GitHub Actions ejecuta la compilación de TypeScript y las pruebas de Python en cada cambio (ver `.github/workflows/ci.yml`).
+El flujo del agente, las rutas REST y la demostración de diez minutos están documentados junto a los controles Paper. [Arquitectura y demostración](docs/Arquitectura_y_Demo_Casa_Juan.md)
 
-1. Consultar `Guia_Entrega_81901.md` para localizar el cuaderno, el informe y la evidencia.
-2. Revisar [el informe a dos columnas](docs/Informe_Juan_Fernando_Castrejon_Villa_Dos_Columnas.pdf) y `docs/Matriz_Cumplimiento.csv` para ver los resultados y su trazabilidad.
-3. Abrir `Abrir_Casa_Juan_81901.html` en el navegador. La oficina reproduce los 30 ciclos archivados de BTCUSDT. **Laboratorio** permite generar, editar y probar reglas con los históricos de 15 activos desde la vista sin conexión.
-4. Para consultar MEXC en vivo o ejecutar simulaciones nuevas, iniciar la aplicación local. Ollama se requiere para la toma de decisiones del agente.
+GitHub Actions comprueba los tipos de TypeScript, compila la interfaz y ejecuta las pruebas de Python. La ejecución verificada pasó las 33 pruebas. [Configuración de CI](.github/workflows/ci.yml) · [Ejecución verificada](https://github.com/JuanCastrejonV-hash/casa-juan-81901/actions/runs/46015722997)
 
 ## Los 15 pares
 
 BTCUSDT, ETHUSDT, SOLUSDT, XRPUSDT, ADAUSDT, DOGEUSDT, AVAXUSDT, DOTUSDT, LINKUSDT, LTCUSDT, BCHUSDT, XLMUSDT, TRXUSDT, ETCUSDT y ATOMUSDT.
 
 Son pares **configurados**. Su disponibilidad, reglas y profundidad histórica se consultan en MEXC antes de usarlos. Si un par no está disponible o tiene menos de 1,500 observaciones válidas, se registra el incidente y no se entrena. No se sustituyen automáticamente por otro activo ni se inventan fechas.
+
+## Datos de mercado
+
+**Histórico** muestra velas diarias reales descargadas del endpoint público `GET /api/v3/klines` de MEXC Spot. El archivo de origen conserva el par, el intervalo, la URL y la respuesta del mercado. Para BTCUSDT, el CSV contiene 2,499 velas auditadas. [Descarga de BTCUSDT](data/raw/BTCUSDT.json) · [CSV auditado](data/processed/BTCUSDT.csv)
+
+**En vivo** solicita velas cerradas y cotizaciones públicas desde la app local. La vista reporta un error si la consulta falla. Para la demostración con el conjunto archivado, vuelve a **Histórico**. [Cliente de mercado](pai/data.py) · [Ruta de mercado](backend/app.py)
 
 ## Método del cuaderno
 
@@ -47,7 +72,7 @@ La diferenciación fraccionaria, el COT y el pronóstico de varios pasos se docu
 
 ## Instalar en el equipo
 
-Python 3.11 o 3.12. Node 20.19+ solo es necesario para recompilar la interfaz. La distribución incluye `frontend/dist`. Las versiones de TensorFlow, Keras y scikit-learn en `requirements.txt` coinciden con las de los modelos de Colab.
+Python 3.11 o 3.12. Para recompilar la interfaz, usa Node 20.19 o posterior en la línea 20, o Node 22.12 en adelante. La distribución incluye `frontend/dist`. Las versiones de TensorFlow, Keras y scikit-learn en `requirements.txt` coinciden con las de los modelos de Colab.
 
 ```bash
 python3 -m venv .venv
@@ -112,6 +137,19 @@ En **Laboratorio**, **Idear con Ollama** propone reglas estructuradas usando la 
 No se atribuye al modo actual la apertura que ya ocurrió durante la latencia del LLM. Las posiciones actuales se valoran con cotizaciones públicas y las históricas al cierre. Los límites diarios se conservan y al alcanzarse se pausan nuevas órdenes. En las comparaciones se aplica el mismo periodo, comisión, deslizamiento y límite de tamaño a modelo sin LLM, agente con LLM y pasiva. En el replay de un solo activo, comprar y mantener usa el 10% inicial permitido; en la práctica académica usa 100% como exige su apartado.
 
 El LLM puede vetar o modificar la propuesta, pero no puede comprar si la señal congelada del modelo no se cumple ni modificar las reglas de riesgo. La referencia pasiva ignora la señal, por definición. Los porcentajes de costo anteriores son supuestos educativos; no se presentan como tarifas universales de MEXC.
+
+## Operaciones y PnL
+
+En **Simulación → Operaciones**, **Ganancia / pérdida** muestra el patrimonio menos el capital inicial. La columna **PnL · USDT** registra el resultado realizado de cada posición cerrada. **Órdenes ejecutadas** muestra fecha UTC, acción, precio y cantidad. Los vetos aparecen en **Decisiones**.
+
+El replay histórico de BTCUSDT del 21 de octubre al 20 de noviembre de 2026 comenzó con **50,000.00 USDT**. Las tres estrategias cerraron con **48,730.91 USDT**, un **PnL neto de -1,269.09 USDT (-2.54%)**. El agente con Ollama registró estas operaciones Paper.
+
+| Fecha UTC | Operación | Precio (USDT/BTC) | Cantidad (BTC) | PnL realizado (USDT) |
+| --- | --- | ---: | ---: | ---: |
+| 21 de octubre de 2026 | Compra | 83,046.78 | 0.06020703 | — |
+| 20 de noviembre de 2026 | Venta al cierre del replay | 61,968.05 | 0.06020703 | -1,269.09 |
+
+El motor vetó 29 compras adicionales por posición abierta. El registro de órdenes, las decisiones y la comparación se pueden contrastar con las bases Paper. [Órdenes](evidencia/replay_BTCUSDT/agente_con_llm_orders.csv) · [Decisiones](evidencia/replay_BTCUSDT/agente_con_llm_decisions.csv) · [Comparación](evidencia/replay_BTCUSDT/comparacion.csv)
 
 ## Pruebas y replay
 
