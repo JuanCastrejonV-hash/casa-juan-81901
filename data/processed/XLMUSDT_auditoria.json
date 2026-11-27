@@ -1,0 +1,18 @@
+{
+  "filas_originales": 2500,
+  "fuera_de_orden": true,
+  "duplicadas": 0,
+  "regla_duplicados": "Conservar última respuesta por apertura; ordenar.",
+  "velas_abiertas_descartadas": 1,
+  "filas_validas": 2499,
+  "inicio": "2020-01-17T00:00:00+00:00",
+  "fin": "2026-11-19T00:00:00+00:00",
+  "timezone": "UTC",
+  "ajustes": "Sin dividendos ni particiones bursátiles. No se rellenan huecos.",
+  "symbol": "XLMUSDT",
+  "source": "MEXC Spot",
+  "downloaded_at": "2026-11-20T14:16:20.400451+00:00",
+  "quote": "USDT",
+  "sha256_raw": "9b663a0b1c50ae655c93025e38a21bbfb1fc62e4496245950518b5dd34fbc22e",
+  "sha256_processed": "06fb4a9fce53c9a1df656a989378dc326c6135e6addfed88207ad54ab720e347"
+}

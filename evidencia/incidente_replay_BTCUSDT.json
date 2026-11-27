@@ -1,0 +1,15 @@
+{
+  "modo": "replay histórico",
+  "activo": "BTCUSDT",
+  "ciclo_que_se_detuvo": 4,
+  "fecha_emision_utc": "2026-10-24 00:00:00+00:00",
+  "motivo": "El JSON cambia símbolo o fecha; propuesta rechazada. El rechazo ocurrió antes de aplicar la propuesta.",
+  "ciclos_anteriores_al_rechazo": 3,
+  "periodo_predefinido": {
+    "primera_emision": "2026-10-21 00:00:00+00:00",
+    "ultimo_objetivo": "2026-11-20 00:00:00+00:00"
+  },
+  "modelo": "qwen3:0.6b",
+  "cambio": "El esquema de salida fija el símbolo y el cierre. El conjunto de acciones excluye vender cuando la cartera carece de esa posición.",
+  "repeticion": "Se usa el mismo periodo con carteras nuevas de 50,000 USDT."
+}

@@ -1,0 +1,18 @@
+{
+  "filas_originales": 2500,
+  "fuera_de_orden": true,
+  "duplicadas": 0,
+  "regla_duplicados": "Conservar última respuesta por apertura; ordenar.",
+  "velas_abiertas_descartadas": 1,
+  "filas_validas": 2499,
+  "inicio": "2020-01-17T00:00:00+00:00",
+  "fin": "2026-11-19T00:00:00+00:00",
+  "timezone": "UTC",
+  "ajustes": "Sin dividendos ni particiones bursátiles. No se rellenan huecos.",
+  "symbol": "LTCUSDT",
+  "source": "MEXC Spot",
+  "downloaded_at": "2026-11-20T14:16:08.234541+00:00",
+  "quote": "USDT",
+  "sha256_raw": "fce8d865390e9343420951670830e570c5f47c0fa5f98fe8e72c6a224f39ee36",
+  "sha256_processed": "48a991c779c44d86b48062334084957e830753ccdbc97a8f7bb021126479f0c1"
+}

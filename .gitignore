@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+.venv/
+var/
+node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.tsbuildinfo
+data/raw/
+data/processed/
+artifacts/*
+!artifacts/.gitkeep

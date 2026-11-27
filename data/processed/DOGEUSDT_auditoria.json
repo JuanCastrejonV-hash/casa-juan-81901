@@ -1,0 +1,18 @@
+{
+  "filas_originales": 2500,
+  "fuera_de_orden": true,
+  "duplicadas": 0,
+  "regla_duplicados": "Conservar última respuesta por apertura; ordenar.",
+  "velas_abiertas_descartadas": 1,
+  "filas_validas": 2499,
+  "inicio": "2020-01-17T00:00:00+00:00",
+  "fin": "2026-11-19T00:00:00+00:00",
+  "timezone": "UTC",
+  "ajustes": "Sin dividendos ni particiones bursátiles. No se rellenan huecos.",
+  "symbol": "DOGEUSDT",
+  "source": "MEXC Spot",
+  "downloaded_at": "2026-11-20T14:03:14.043599+00:00",
+  "quote": "USDT",
+  "sha256_raw": "50bc23ce402545636c6c1c9ec74a0fd9fbd479cd41fd39ae2fe6a1ff23fe4c06",
+  "sha256_processed": "bc82e44b3d4417d45457d5b6f33a2ab9553a1319a443b05ce58a76523a67e473"
+}

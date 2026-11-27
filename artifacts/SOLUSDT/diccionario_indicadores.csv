@@ -1,0 +1,4 @@
+variable,formula,ventana,unidad,primera_fecha_valida
+return,close_t / close_t_minus_1 - 1,1,Fracción diaria,2020-07-09 00:00:00+00:00
+dist_sma20,close_t / promedio(20 cierres) - 1,20,Fracción,2020-07-27 00:00:00+00:00
+vol20,"std(20 rendimientos, ddof=1)",20,Fracción diaria sin anualizar,2020-07-28 00:00:00+00:00

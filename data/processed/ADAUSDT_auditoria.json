@@ -1,0 +1,18 @@
+{
+  "filas_originales": 2500,
+  "fuera_de_orden": true,
+  "duplicadas": 0,
+  "regla_duplicados": "Conservar última respuesta por apertura; ordenar.",
+  "velas_abiertas_descartadas": 1,
+  "filas_validas": 2499,
+  "inicio": "2020-01-17T00:00:00+00:00",
+  "fin": "2026-11-19T00:00:00+00:00",
+  "timezone": "UTC",
+  "ajustes": "Sin dividendos ni particiones bursátiles. No se rellenan huecos.",
+  "symbol": "ADAUSDT",
+  "source": "MEXC Spot",
+  "downloaded_at": "2026-11-20T14:03:08.379318+00:00",
+  "quote": "USDT",
+  "sha256_raw": "5187f3a8d6ce459f467a4b8ca19cac1d2702ad74562be31f069175d7a833a1f6",
+  "sha256_processed": "42d4557d7e97621d10fab5f1f8d709599758d2c387abb658699fef60f06daf0e"
+}

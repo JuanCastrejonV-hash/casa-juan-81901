@@ -1,0 +1,5 @@
+caso,mensaje,resultado
+Conjunto vacío,Conjunto vacío: descarga o archivo sin observaciones.,Detención esperada
+Fecha duplicada,Fecha duplicada: se detuvo la copia de prueba.,Detención esperada
+Valor no válido,"Dato no válido: fecha, faltante, infinito o columna no numérica; corregir la fuente.",Detención esperada
+Dimensión incorrecta,"Dimensiones incorrectas: esperado (ejemplos,20,1); recibido (5, 20).",Detención esperada

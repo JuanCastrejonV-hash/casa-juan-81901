@@ -1,0 +1,30 @@
+﻿Criterio,Pagina_protocolo,Implementacion,Comprobacion,Estado_actual,Evidencia,Pendiente
+Datos y diccionario,1–2,"Descarga, contrato OHLCV, hashes, UTC y diccionario",15 muestras MEXC Spot auditadas con origen y SHA-256,Verificado en Colab,data/raw/ y artifacts/<par>/diccionario_indicadores.csv,
+"Mínimo 1,500 observaciones",1,Bloqueo si falta historia válida,"1,912 a 2,499 velas válidas por activo",15/15 disponibles,data/processed/,
+Objetivo y ventanas,2,Retorno siguiente; 20 retornos; indicadores causales,Cronología comprobada con fixtures y ejemplos reales,Verificado,artifacts/<par>/ejemplos_alineacion.csv,
+TR/VA/TE 70/15/15,2,Fecha objetivo y fronteras estrictas,Fronteras y conteos por fecha objetivo para cada activo,Verificado,artifacts/<par>/particiones.csv,
+Transformaciones solo TR,2,Escaladores X e y por entrenamiento,Escaladores versionados de los 15 modelos,Verificado,artifacts/<par>/manifest.json y escaladores.joblib,
+Cero y regresión,3,Referencias con mismos rezagos y fechas,"Métricas TR, VA y TE en cada muestra",Verificado,artifacts/<par>/metricas_finales.csv,
+MLP y LSTM,4,"Tres tamaños por familia, Adam, ES","Experimentos y épocas de ambas familias, con evidencias GPU",Entrenado,artifacts/<par>/experimentos.csv,
+Tres semillas,4,"123, 7 y 42; semilla 123 prefijada",Tres semillas por familia y resúmenes por activo,Verificado,artifacts/<par>/resumen_semillas.csv,
+T4 efectiva,3,"nvidia-smi, op GPU, pesos y gradientes GPU",Modelos con prueba NVIDIA T4 y contrato de archivo por sesión,15/15 completados,evidencia/t4_sessions/ y artifacts/<par>/manifest.json,
+Tres ventanas expansivas,4,TR externo e interna ES anterior al bloque,Tres folds fechados para cada activo,Verificado,artifacts/<par>/ventanas_expansivas_TR.csv,
+Comparación de indicadores,5–6,Base vs distancia SMA20 y vol20 ddof1,Experimentos base e indicadores en VA y correlaciones en TR,Verificado,artifacts/<par>/experimentos.csv y correlaciones_TR.csv,
+Umbral y filtro,6,Cinco positivos; rendimiento VA/drawdown,Rendimiento y drawdown de cada candidato en VA,Verificado,artifacts/<par>/umbrales_VA.csv,
+TE reservado,"2,9",Manifest congelado y lock antes de evaluar,15 locks asociados al hash exacto del manifiesto,15/15 evaluados,artifacts/<par>/evaluacion_TE.lock.json,
+Pronóstico futuro,8–9,Siguiente día con real vacío,"Una fila por activo, corte y periodo UTC, real vacío en la exportación",Verificado,artifacts/<par>/prediccion_futura.csv,
+Cuatro fallos de datos,7,"Vacío, duplicado, no válido, forma",33 pruebas totales aprobadas,Probado controlado,evidencia/pruebas_junit.xml,Ninguno para la prueba controlada
+Entorno y transición,5,"Estado, acciones, recompensa y cálculo hipotético",Ejemplo manual identificado,Documentado,notebooks/,Explicar oralmente el cálculo
+Simulación académica,8,"100k, fee .001, nextopen y liquidación final","Resultados TE de modelo, efectivo y comprar/mantener",Verificado,artifacts/<par>/simulacion.csv y simulacion_*.json,
+Interfaz 15 activos,13 y captura,React/TypeScript y 15 pares configurados,Compilación React/TypeScript y disponibilidad de 15 modelos en la API,Verificado,frontend/ y evidencia/verificacion_entrega.json,
+API privada y secretos,13–14,Claves backend; cookies HttpOnly; gateway,Ausentes/incorrectas rechazadas por tests,Probado controlado,backend/app.py,Generar claves propias en el equipo
+Ollama realmente local,13,Loopback y modelo descargado,30 propuestas en CPU local con qwen3:0.6b y nube deshabilitada,Verificado en replay,evidencia/replay_BTCUSDT/verificacion_inferencia.json,
+MEXC y Paper,13–14,"Solo GET públicos, precisión, saldo y simulación",Históricos públicos obtenidos en Colab y órdenes simuladas sobre aperturas históricas,Verificado en replay,data/raw/ y evidencia/replay_BTCUSDT/,Conexión en vivo fuera de la demostración histórica
+Riesgo y control humano,14,"Exposición, pérdida diaria, dato viejo y stop",Controles probados y 29 compras rechazadas por posición abierta,Verificado,tests/test_agent.py y evidencia/replay_BTCUSDT/agente_con_llm_decisions.csv,
+Nueve errores y recuperación,14,"Errores, idempotencia y persistencia",Escenarios controlados aprobados,Probado controlado,evidencia/pruebas.json,Repetir la demostración operativa
+20 ciclos válidos,15,Replay de 30 y registros separados,"30 velas históricas, 30 propuestas con identidad validada",Verificado en replay,evidencia/replay_BTCUSDT/ollama_ciclos.json,
+Tres estrategias,15,"Modelo, agente y pasiva; costos iguales","Periodo, capital, exposición y costos comunes. Retorno neto -2.54% en las tres",Verificado en replay,evidencia/replay_BTCUSDT/comparacion.csv,
+Informe y reproducibilidad,"9,15","Informe de 7 páginas a dos columnas, README y fuentes","Informe actualizado, inventarios, anexos y guías de ejecución",Disponible,docs/Informe_Juan_Fernando_Castrejon_Villa_Dos_Columnas.pdf y README.md,
+Enlace Colab de lectura,9,Notebook subible con código incluido,Se abrió el cuaderno y las salidas sin iniciar sesión,Verificado,docs/enlace_colab.txt,
+Rentabilidad +20% y DL>lineal,1 vs13,Se calculan banderas con resultados reales,XLMUSDT obtuvo +26.51% neto y RMSE menor que el modelo lineal,Medido en TE,artifacts/<par>/criterios_empiricos.json,Interpretación de páginas 1 y 13 en revisión docente
+Candidatura académica,13,El profesor verifica subcriterios completos,No se sustituye por una autocalificación,Pendiente del profesor,docs/Informe_Juan_Fernando_Castrejon_Villa_Dos_Columnas.pdf,Revisión de evidencia y observaciones

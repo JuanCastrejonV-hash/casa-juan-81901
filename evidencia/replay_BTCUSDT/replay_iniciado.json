@@ -1,0 +1,29 @@
+{
+  "symbol": "BTCUSDT",
+  "cycles": 30,
+  "llm": {
+    "url": "http://127.0.0.1:40935",
+    "model": "qwen3:0.6b",
+    "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+    "ollama_version": "0.40.16",
+    "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "processor": "x86_64",
+    "cpu_count": 9,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen3",
+      "families": [
+        "qwen3"
+      ],
+      "parameter_size": "751.63M",
+      "quantization_level": "Q4_K_M"
+    },
+    "local": true,
+    "network_inference": "loopback"
+  },
+  "manifest_sha256": "b293a4d05b6eb8f8a471ced3702dab47f858a7df54ce16b6500c6c404d1d7567",
+  "mode": "replay",
+  "first_issue": "2026-10-21 00:00:00+00:00",
+  "last_target": "2026-11-20 00:00:00+00:00"
+}

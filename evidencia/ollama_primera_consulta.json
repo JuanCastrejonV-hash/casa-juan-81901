@@ -1,0 +1,39 @@
+{
+  "url": "http://127.0.0.1:17434",
+  "model": "qwen3:0.6b",
+  "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+  "ollama_version": "0.40.16",
+  "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "processor": "x86_64",
+  "details": {
+    "parent_model": "",
+    "format": "gguf",
+    "family": "qwen3",
+    "families": [
+      "qwen3"
+    ],
+    "parameter_size": "751.63M",
+    "quantization_level": "Q4_K_M"
+  },
+  "local": true,
+  "network_inference": "loopback",
+  "latency_ms": 10838.778661000106,
+  "response": {
+    "action": "BUY",
+    "symbol": "BTCUSDT",
+    "candle_close_ms": 1763510399999,
+    "reason": "The price is stable at $100.00, which is above the threshold of $99.00. A BUY position is optimal for maintaining a positive trend."
+  },
+  "tools": [],
+  "eval_count": 83,
+  "total_duration_ns": 5389037480,
+  "mode": "diagnostico_con_datos_sinteticos",
+  "market_data": false,
+  "valid_agent_cycles": 0,
+  "ollama_no_cloud": true,
+  "cpu_only": true,
+  "note": "Inferencia local real. Es un diagnóstico aislado, no un ciclo con mercado ni entrenamiento T4.",
+  "cpu_count": 9,
+  "recorded_at": "2026-11-20T06:54:12.631454+00:00",
+  "interpretation_note": "La salida diagnóstica confundió el precio SMA con el umbral de rendimiento. Se conserva sin alterarla; el prompt posterior aclara las unidades. No acredita decisiones financieras."
+}

@@ -1,0 +1,18 @@
+{
+  "filas_originales": 2500,
+  "fuera_de_orden": true,
+  "duplicadas": 0,
+  "regla_duplicados": "Conservar última respuesta por apertura; ordenar.",
+  "velas_abiertas_descartadas": 1,
+  "filas_validas": 2499,
+  "inicio": "2020-01-17T00:00:00+00:00",
+  "fin": "2026-11-19T00:00:00+00:00",
+  "timezone": "UTC",
+  "ajustes": "Sin dividendos ni particiones bursátiles. No se rellenan huecos.",
+  "symbol": "BCHUSDT",
+  "source": "MEXC Spot",
+  "downloaded_at": "2026-11-20T14:16:14.575450+00:00",
+  "quote": "USDT",
+  "sha256_raw": "f64c8a52d25fe71f3b74f680e02e9c449c543a8191d3e529d8da67a0c402ebeb",
+  "sha256_processed": "d3cddb24726393d3f136d7e6c52cb0e3fc010b10e24574943d4e928f31263826"
+}

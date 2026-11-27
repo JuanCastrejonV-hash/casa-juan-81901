@@ -1,0 +1,18 @@
+{
+  "filas_originales": 2500,
+  "fuera_de_orden": true,
+  "duplicadas": 0,
+  "regla_duplicados": "Conservar última respuesta por apertura; ordenar.",
+  "velas_abiertas_descartadas": 1,
+  "filas_validas": 2499,
+  "inicio": "2020-01-17T00:00:00+00:00",
+  "fin": "2026-11-19T00:00:00+00:00",
+  "timezone": "UTC",
+  "ajustes": "Sin dividendos ni particiones bursátiles. No se rellenan huecos.",
+  "symbol": "BTCUSDT",
+  "source": "MEXC Spot",
+  "downloaded_at": "2026-11-20T14:02:42.403157+00:00",
+  "quote": "USDT",
+  "sha256_raw": "a5e0f06c63520d92d917da82713a5a13ce418eb66e343c7823102688cc0b1580",
+  "sha256_processed": "3775f26432f8c9c52e6a25196011d95fa847dfd6e6b580ea851559bc2754cf05"
+}

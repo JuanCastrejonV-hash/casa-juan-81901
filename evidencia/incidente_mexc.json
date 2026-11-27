@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T06:46:10.041566+00:00",
+  "etapa": "conexion_MEXC",
+  "fuente": "https://api.mexc.com/api/v3/time",
+  "http_status": 403,
+  "resultado": "Site Unavailable",
+  "accion": "No generar datos de reemplazo; volver a intentar desde una conexión con acceso legítimo a MEXC.",
+  "impacto": "No se acreditan descargas de 1500 velas por activo ni ciclos actuales desde este entorno."
+}

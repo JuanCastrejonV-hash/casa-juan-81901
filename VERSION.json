@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "fecha": "2026-11-23",
+  "alumno": "Juan Fernando Castrejón Villa",
+  "matricula": "81901",
+  "protocolo": "Protocolo_DL_Finanzas_Con_Agente_IA.pdf",
+  "protocolo_sha256": "ea3190fb8a5a167a472818e1f30fef56f7c8242b69b26f15e743f8ed8cadf8eb",
+  "alcance": "15 pares; práctica 7–11 y agente Paper",
+  "evidencia_experimental_completa": true
+}

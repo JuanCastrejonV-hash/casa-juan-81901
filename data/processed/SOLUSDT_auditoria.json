@@ -1,0 +1,18 @@
+{
+  "filas_originales": 2327,
+  "fuera_de_orden": true,
+  "duplicadas": 0,
+  "regla_duplicados": "Conservar última respuesta por apertura; ordenar.",
+  "velas_abiertas_descartadas": 1,
+  "filas_validas": 2326,
+  "inicio": "2020-07-08T00:00:00+00:00",
+  "fin": "2026-11-19T00:00:00+00:00",
+  "timezone": "UTC",
+  "ajustes": "Sin dividendos ni particiones bursátiles. No se rellenan huecos.",
+  "symbol": "SOLUSDT",
+  "source": "MEXC Spot",
+  "downloaded_at": "2026-11-20T14:02:55.767050+00:00",
+  "quote": "USDT",
+  "sha256_raw": "ecb534e5c9df981863c41185949ce62b215454fc0cb7fc6dfb00f7e2ba998e67",
+  "sha256_processed": "3628a85f274b20dc9aafeecc70452df4badff0b0d562b778d4dd724264af3043"
+}

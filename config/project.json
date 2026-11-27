@@ -1,0 +1,128 @@
+{
+  "version": "1.0.0",
+  "interval": "1d",
+  "market": "MEXC Spot",
+  "timezone": "UTC",
+  "quote": "USDT",
+  "assets": [
+    {
+      "symbol": "BTCUSDT",
+      "base": "BTC",
+      "name": "Bitcoin"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "base": "ETH",
+      "name": "Ethereum"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "base": "SOL",
+      "name": "Solana"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "base": "XRP",
+      "name": "XRP"
+    },
+    {
+      "symbol": "ADAUSDT",
+      "base": "ADA",
+      "name": "Cardano"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "base": "DOGE",
+      "name": "Dogecoin"
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "base": "AVAX",
+      "name": "Avalanche"
+    },
+    {
+      "symbol": "DOTUSDT",
+      "base": "DOT",
+      "name": "Polkadot"
+    },
+    {
+      "symbol": "LINKUSDT",
+      "base": "LINK",
+      "name": "Chainlink"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "base": "LTC",
+      "name": "Litecoin"
+    },
+    {
+      "symbol": "BCHUSDT",
+      "base": "BCH",
+      "name": "Bitcoin Cash"
+    },
+    {
+      "symbol": "XLMUSDT",
+      "base": "XLM",
+      "name": "Stellar"
+    },
+    {
+      "symbol": "TRXUSDT",
+      "base": "TRX",
+      "name": "TRON"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "base": "ETC",
+      "name": "Ethereum Classic"
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "base": "ATOM",
+      "name": "Cosmos"
+    }
+  ],
+  "lookback": 20,
+  "minimum_observations": 1500,
+  "split": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "seeds": [
+    123,
+    7,
+    42
+  ],
+  "neurons": [
+    16,
+    32,
+    64
+  ],
+  "learning_rate": 0.001,
+  "max_epochs": 60,
+  "patience": 8,
+  "batch_size": 64,
+  "thresholds": [
+    0.0005,
+    0.001,
+    0.002,
+    0.005,
+    0.01
+  ],
+  "academic": {
+    "initial_cash": 100000,
+    "fee": 0.001,
+    "slippage_bps": 0
+  },
+  "paper": {
+    "initial_cash": 50000,
+    "fee": 0.0,
+    "slippage_bps": 2,
+    "max_total_exposure": 0.8,
+    "max_asset_exposure": 0.1,
+    "daily_loss_limit": 0.03,
+    "max_data_age_hours": 36,
+    "poll_seconds": 60,
+    "stop_liquidates": false
+  }
+}

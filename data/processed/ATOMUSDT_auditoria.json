@@ -1,0 +1,18 @@
+{
+  "filas_originales": 2500,
+  "fuera_de_orden": true,
+  "duplicadas": 0,
+  "regla_duplicados": "Conservar última respuesta por apertura; ordenar.",
+  "velas_abiertas_descartadas": 1,
+  "filas_validas": 2499,
+  "inicio": "2020-01-17T00:00:00+00:00",
+  "fin": "2026-11-19T00:00:00+00:00",
+  "timezone": "UTC",
+  "ajustes": "Sin dividendos ni particiones bursátiles. No se rellenan huecos.",
+  "symbol": "ATOMUSDT",
+  "source": "MEXC Spot",
+  "downloaded_at": "2026-11-20T14:16:40.165015+00:00",
+  "quote": "USDT",
+  "sha256_raw": "f20f54e414a40a4e600982e41352de2bc29774e600b43e342abfb3f9cc3332f0",
+  "sha256_processed": "f8a1758d2183ad6d20e1c60dfbe7df4167349f32fafc1e9dffb481c3fea7d673"
+}

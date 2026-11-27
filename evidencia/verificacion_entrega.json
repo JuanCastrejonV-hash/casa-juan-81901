@@ -1,0 +1,159 @@
+{
+  "fecha": "2026-11-22",
+  "estado": "Entrega con resultados T4, evaluación TE y replay histórico verificados.",
+  "activos": 15,
+  "modelos_t4_y_te": 15,
+  "archivos_colab_verificados": 1496,
+  "cuaderno_colab": {
+    "url": "https://colab.research.google.com/drive/1rBr_In1QC-_EjRIY7omLMOP92adsXyxk?usp=sharing",
+    "archivo": "Proyecto_Final_Gestion_Bases_Datos_Juan_Castrejon_81901.ipynb",
+    "sha256_en_colab": "5d96e2df257ca678398bf05189f39b83a43f3fd37d6b3bde7059c03586806875",
+    "sha256_entrega": "b0ace523cfc1470b23e0e2ff4c4c56977f178fc82350ca26f20dbe7d0393551e",
+    "lectura_sin_iniciar_sesion": true,
+    "correcciones_sangria": [
+      {
+        "celda": 22,
+        "conteo_guardado": 17
+      }
+    ],
+    "salidas_conservadas": true
+  },
+  "filas_mostradas_por_celda_csv": [
+    45,
+    45,
+    135,
+    15
+  ],
+  "pruebas": {
+    "tests": 33,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "inferencia_y_api": {
+    "modelos": 15,
+    "error_maximo_vs_colab": 1.955777398712777e-08,
+    "errores_por_activo": {
+      "BTCUSDT": 2.3283057730069667e-10,
+      "ETHUSDT": 2.0954757035465676e-09,
+      "SOLUSDT": 2.7939676813457104e-09,
+      "XRPUSDT": 1.955777398712777e-08,
+      "ADAUSDT": 4.6566137751336e-10,
+      "DOGEUSDT": 2.328306442393388e-09,
+      "AVAXUSDT": 1.6298145042760448e-09,
+      "DOTUSDT": 5.2800645800044066e-17,
+      "LINKUSDT": 2.3283064037415806e-10,
+      "LTCUSDT": 6.071532165918825e-17,
+      "BCHUSDT": 1.1641527780832661e-10,
+      "XLMUSDT": 4.656613020528888e-10,
+      "TRXUSDT": 4.6566122182192804e-10,
+      "ETCUSDT": 4.656612842719732e-10,
+      "ATOMUSDT": 9.313225481609455e-10
+    },
+    "bibliotecas": {
+      "tensorflow-cpu": "2.21.0",
+      "keras": "3.13.2",
+      "scikit-learn": "1.6.1",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3"
+    },
+    "frontend": "Distribución compilada servida por FastAPI",
+    "api": "Salud, sesión, catálogo de 15 modelos listos y evidencia"
+  },
+  "replay": {
+    "simbolo": "BTCUSDT",
+    "ciclos": 30,
+    "modo": "historico",
+    "ollama_local": true
+  },
+  "informe": {
+    "ruta": "docs/Informe_Juan_Fernando_Castrejon_Villa_Dos_Columnas.pdf",
+    "páginas": 7,
+    "formato": "Dos columnas",
+    "sha256": "e90c6f00ce5bff67cef9bd84935ab6280f3c7b5f0033081e473362058d6487d8"
+  },
+  "casa_juan": {
+    "version": "2.0.0",
+    "vista_historica": "Abrir_Casa_Juan_81901.html",
+    "oficina": {
+      "personajes": [
+        "Pai",
+        "Wey",
+        "Cawn"
+      ],
+      "estaciones": 6,
+      "replay_ciclos": 30,
+      "telemetria": "Integración controlada con velas archivadas y modelo DL del proyecto",
+      "etapas_registradas_en_prueba": [
+        "market",
+        "model",
+        "ollama",
+        "risk",
+        "ledger",
+        "idle"
+      ]
+    },
+    "laboratorio": {
+      "configuraciones_generadas_por_activo": 144,
+      "activos_verificados": 15,
+      "validacion_cronologica": 3,
+      "cierre_previo_te": true,
+      "btc_generador": {
+        "rule": {
+          "family": "reversion",
+          "lookback": 20,
+          "triggerBps": 300,
+          "filter": "volume"
+        },
+        "net": 0.03168572873742037,
+        "reference": 0.0612732953411792,
+        "drawdown": 0.01384989705558594,
+        "stressed": 0.02840632029142265,
+        "filled": 13
+      },
+      "btc_ollama_local": {
+        "candidates": [
+          {
+            "family": "trend",
+            "lookback": 5,
+            "triggerBps": 100,
+            "filter": "volume"
+          },
+          {
+            "family": "breakout",
+            "lookback": 90,
+            "triggerBps": 50,
+            "filter": "volume"
+          },
+          {
+            "family": "momentum",
+            "lookback": 5,
+            "triggerBps": 200,
+            "filter": "volume"
+          },
+          {
+            "family": "reversion",
+            "lookback": 90,
+            "triggerBps": 800,
+            "filter": "volume"
+          }
+        ],
+        "model": "qwen3:0.6b",
+        "latency_ms": 17286,
+        "selected": {
+          "family": "reversion",
+          "lookback": 90,
+          "triggerBps": 800,
+          "filter": "volume"
+        },
+        "net": -0.0009417762515510075,
+        "reference": 0.0612732953411792
+      }
+    },
+    "pruebas_temporales": {
+      "mutatingEvaluationPreservesRanking": true,
+      "nextOpeningTest": true
+    },
+    "interfaz": "Interacciones del HTML compilado, movimiento, navegación y exportación comprobados en un entorno DOM"
+  }
+}

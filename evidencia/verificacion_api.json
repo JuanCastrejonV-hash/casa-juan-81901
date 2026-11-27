@@ -1,0 +1,10 @@
+{
+  "assets": 15,
+  "models_ready": 0,
+  "missing_key_rejected": true,
+  "gateway_key_rejected": true,
+  "stop_effective": true,
+  "env_permissions_octal": "0o600",
+  "real_orders_enabled": false,
+  "context": "Instancia aislada de verificaci\u00f3n; sin operaciones de mercado."
+}

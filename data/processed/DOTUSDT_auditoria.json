@@ -1,0 +1,18 @@
+{
+  "filas_originales": 2282,
+  "fuera_de_orden": true,
+  "duplicadas": 0,
+  "regla_duplicados": "Conservar última respuesta por apertura; ordenar.",
+  "velas_abiertas_descartadas": 1,
+  "filas_validas": 2281,
+  "inicio": "2020-08-22T00:00:00+00:00",
+  "fin": "2026-11-19T00:00:00+00:00",
+  "timezone": "UTC",
+  "ajustes": "Sin dividendos ni particiones bursátiles. No se rellenan huecos.",
+  "symbol": "DOTUSDT",
+  "source": "MEXC Spot",
+  "downloaded_at": "2026-11-20T14:15:56.520815+00:00",
+  "quote": "USDT",
+  "sha256_raw": "5dac1ab9af9ec96c9054abec59253d45cb2033e4d9da61eebb906078b26214a8",
+  "sha256_processed": "49ae75f6cca0971f01157d5431fa76a1a892906991eb13f55594613bb999ef57"
+}

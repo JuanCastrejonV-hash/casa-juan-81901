@@ -1,0 +1,32 @@
+id,created_at,stage,code,message,symbol
+1,2026-11-22T20:09:01.208854+00:00,control,RUNNING,Control humano: running,
+2,2026-11-22T20:09:30.837480+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+3,2026-11-22T20:09:44.859602+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+4,2026-11-22T20:09:56.594132+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+5,2026-11-22T20:10:08.311390+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+6,2026-11-22T20:10:26.253211+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+7,2026-11-22T20:10:39.139535+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+8,2026-11-22T20:10:47.234025+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+9,2026-11-22T20:11:01.385808+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+10,2026-11-22T20:11:12.871362+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+11,2026-11-22T20:11:25.835734+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+12,2026-11-22T20:11:38.855223+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+13,2026-11-22T20:11:50.253093+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+14,2026-11-22T20:12:02.051624+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+15,2026-11-22T20:12:12.855039+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+16,2026-11-22T20:12:20.837041+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+17,2026-11-22T20:12:29.029747+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+18,2026-11-22T20:12:40.579480+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+19,2026-11-22T20:12:51.078870+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+20,2026-11-22T20:13:03.013155+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+21,2026-11-22T20:13:13.310558+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+22,2026-11-22T20:13:24.138611+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+23,2026-11-22T20:13:36.111859+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+24,2026-11-22T20:13:48.569894+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+25,2026-11-22T20:13:58.990233+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+26,2026-11-22T20:14:08.700322+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+27,2026-11-22T20:14:18.808543+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+28,2026-11-22T20:14:29.542505+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+29,2026-11-22T20:14:39.649705+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+30,2026-11-22T20:14:50.469405+00:00,risk,ALREADY_LONG,Propuesta registrada sin ejecución: ALREADY_LONG,BTCUSDT
+31,2026-11-22T20:14:50.505656+00:00,control,EXPLICIT_LIQUIDATION,Liquidación Paper solicitada explícitamente; no se deriva del botón detener.,BTCUSDT

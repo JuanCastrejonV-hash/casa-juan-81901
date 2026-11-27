@@ -1,0 +1,18 @@
+{
+  "filas_originales": 2500,
+  "fuera_de_orden": true,
+  "duplicadas": 0,
+  "regla_duplicados": "Conservar última respuesta por apertura; ordenar.",
+  "velas_abiertas_descartadas": 1,
+  "filas_validas": 2499,
+  "inicio": "2020-01-17T00:00:00+00:00",
+  "fin": "2026-11-19T00:00:00+00:00",
+  "timezone": "UTC",
+  "ajustes": "Sin dividendos ni particiones bursátiles. No se rellenan huecos.",
+  "symbol": "ETHUSDT",
+  "source": "MEXC Spot",
+  "downloaded_at": "2026-11-20T14:02:49.278892+00:00",
+  "quote": "USDT",
+  "sha256_raw": "ed29324ee66d29f8e85702476f21313ead2db218a14c0b2fa099b42237e92f1b",
+  "sha256_processed": "cab36ae758b3e05217a848eabdf1fea772f02ece01bb3bf199fe0c92b2233f44"
+}

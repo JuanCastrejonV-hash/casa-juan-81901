@@ -1,0 +1,1022 @@
+[
+  {
+    "close_ms": 1792540800000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 13910.155717999942,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1792540800000,
+        "reason": "Pronóstico 0.106% y umbral 0.100%; distancia a SMA20 -0.298%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 4832802306
+    }
+  },
+  {
+    "close_ms": 1792627200000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 11326.738781999893,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1792627200000,
+        "reason": "Pronóstico 0.107% y umbral 0.100%; distancia a SMA20 1.030%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 5514334822
+    }
+  },
+  {
+    "close_ms": 1792713600000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 13940.498908000109,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1792713600000,
+        "reason": "Pronóstico 0.111% y umbral 0.100%; distancia a SMA20 -2.006%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 6694900702
+    }
+  },
+  {
+    "close_ms": 1792800000000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 11566.35117299993,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1792800000000,
+        "reason": "Pronóstico 0.106% y umbral 0.100%; distancia a SMA20 -2.069%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 5634882798
+    }
+  },
+  {
+    "close_ms": 1792886400000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 11555.49020300009,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1792886400000,
+        "reason": "Pronóstico 0.105% y umbral 0.100%; distancia a SMA20 -2.114%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 6257777643
+    }
+  },
+  {
+    "close_ms": 1792972800000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 17846.539441000004,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1792972800000,
+        "reason": "Pronóstico 0.104% y umbral 0.100%; distancia a SMA20 -2.652%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 12291702104
+    }
+  },
+  {
+    "close_ms": 1793059200000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 12767.35577699992,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1793059200000,
+        "reason": "Pronóstico 0.103% y umbral 0.100%; distancia a SMA20 -2.357%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 5710376579
+    }
+  },
+  {
+    "close_ms": 1793145600000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 8010.596983999903,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1793145600000,
+        "reason": "Pronóstico 0.104% y umbral 0.100%; distancia a SMA20 -1.284%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 6017668328
+    }
+  },
+  {
+    "close_ms": 1793232000000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 14054.16279799988,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1793232000000,
+        "reason": "Pronóstico 0.105% y umbral 0.100%; distancia a SMA20 -0.720%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 6037703537
+    }
+  },
+  {
+    "close_ms": 1793318400000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 11395.587500000147,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1793318400000,
+        "reason": "Pronóstico 0.156% y umbral 0.100%; distancia a SMA20 -4.536%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 5875299537
+    }
+  },
+  {
+    "close_ms": 1793404800000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 12867.659182999887,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1793404800000,
+        "reason": "Pronóstico 0.115% y umbral 0.100%; distancia a SMA20 -5.048%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 5906064037
+    }
+  },
+  {
+    "close_ms": 1793491200000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 12933.454688999973,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1793491200000,
+        "reason": "Pronóstico 0.101% y umbral 0.100%; distancia a SMA20 -4.417%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 5823987687
+    }
+  },
+  {
+    "close_ms": 1793577600000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 11296.257110999932,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1793577600000,
+        "reason": "Pronóstico 0.101% y umbral 0.100%; distancia a SMA20 -3.182%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 5634020076
+    }
+  },
+  {
+    "close_ms": 1793664000000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 11709.432803000027,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1793664000000,
+        "reason": "Pronóstico 0.104% y umbral 0.100%; distancia a SMA20 -4.701%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 6806062289
+    }
+  },
+  {
+    "close_ms": 1793750400000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 10706.710219000115,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1793750400000,
+        "reason": "Pronóstico 0.102% y umbral 0.100%; distancia a SMA20 -3.657%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 5860148773
+    }
+  },
+  {
+    "close_ms": 1793836800000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 7882.74820200013,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1793836800000,
+        "reason": "Pronóstico 0.102% y umbral 0.100%; distancia a SMA20 0.232%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 5854022968
+    }
+  },
+  {
+    "close_ms": 1793923200000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 8100.527320999845,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1793923200000,
+        "reason": "Pronóstico 0.162% y umbral 0.100%; distancia a SMA20 -4.934%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 6410285070
+    }
+  },
+  {
+    "close_ms": 1794009600000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 11416.742526999997,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1794009600000,
+        "reason": "Pronóstico 0.105% y umbral 0.100%; distancia a SMA20 -4.907%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 5227634198
+    }
+  },
+  {
+    "close_ms": 1794096000000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 10364.996633999908,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1794096000000,
+        "reason": "Pronóstico 0.102% y umbral 0.100%; distancia a SMA20 -4.502%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 5280096631
+    }
+  },
+  {
+    "close_ms": 1794182400000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 11800.254867000149,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1794182400000,
+        "reason": "Pronóstico 0.104% y umbral 0.100%; distancia a SMA20 -5.367%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 5018995452
+    }
+  },
+  {
+    "close_ms": 1794268800000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 10201.285348000056,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1794268800000,
+        "reason": "Pronóstico 0.101% y umbral 0.100%; distancia a SMA20 -4.265%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 5055098688
+    }
+  },
+  {
+    "close_ms": 1794355200000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 10730.984277999823,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1794355200000,
+        "reason": "Pronóstico 0.122% y umbral 0.100%; distancia a SMA20 -5.626%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 5754928546
+    }
+  },
+  {
+    "close_ms": 1794441600000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 11855.721047000088,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1794441600000,
+        "reason": "Pronóstico 0.101% y umbral 0.100%; distancia a SMA20 -4.896%."
+      },
+      "tools": [],
+      "eval_count": 75,
+      "total_duration_ns": 5427466226
+    }
+  },
+  {
+    "close_ms": 1794528000000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 12358.160020000014,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1794528000000,
+        "reason": "Pronóstico 0.228% y umbral 0.100%; distancia a SMA20 -7.584%."
+      },
+      "tools": [],
+      "eval_count": 80,
+      "total_duration_ns": 6193395158
+    }
+  },
+  {
+    "close_ms": 1794614400000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 10311.125361999984,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1794614400000,
+        "reason": "Pronóstico 0.443% y umbral 0.100%; distancia a SMA20 -10.934%."
+      },
+      "tools": [],
+      "eval_count": 81,
+      "total_duration_ns": 4734559033
+    }
+  },
+  {
+    "close_ms": 1794700800000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 9613.513714000192,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1794700800000,
+        "reason": "Pronóstico 0.738% y umbral 0.100%; distancia a SMA20 -15.493%."
+      },
+      "tools": [],
+      "eval_count": 81,
+      "total_duration_ns": 5441682025
+    }
+  },
+  {
+    "close_ms": 1794787200000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 10006.440400999963,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1794787200000,
+        "reason": "Pronóstico 0.151% y umbral 0.100%; distancia a SMA20 -13.052%."
+      },
+      "tools": [],
+      "eval_count": 76,
+      "total_duration_ns": 5364070089
+    }
+  },
+  {
+    "close_ms": 1794873600000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 10640.676471000006,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1794873600000,
+        "reason": "Pronóstico 0.179% y umbral 0.100%; distancia a SMA20 -12.756%."
+      },
+      "tools": [],
+      "eval_count": 81,
+      "total_duration_ns": 5644743114
+    }
+  },
+  {
+    "close_ms": 1794960000000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 10025.753300999895,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1794960000000,
+        "reason": "Pronóstico 0.119% y umbral 0.100%; distancia a SMA20 -11.693%."
+      },
+      "tools": [],
+      "eval_count": 81,
+      "total_duration_ns": 5524506850
+    }
+  },
+  {
+    "close_ms": 1795046400000,
+    "evidence": {
+      "url": "http://127.0.0.1:40935",
+      "model": "qwen3:0.6b",
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "ollama_version": "0.40.16",
+      "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "processor": "x86_64",
+      "cpu_count": 9,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M"
+      },
+      "local": true,
+      "network_inference": "loopback",
+      "latency_ms": 10737.103743000034,
+      "response": {
+        "action": "BUY",
+        "symbol": "BTCUSDT",
+        "candle_close_ms": 1795046400000,
+        "reason": "Pronóstico 0.313% y umbral 0.100%; distancia a SMA20 -13.357%."
+      },
+      "tools": [],
+      "eval_count": 76,
+      "total_duration_ns": 5445808564
+    }
+  }
+]

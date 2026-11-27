@@ -1,0 +1,22 @@
+{
+  "filas_originales": 1913,
+  "fuera_de_orden": true,
+  "duplicadas": 0,
+  "regla_duplicados": "Conservar última respuesta por apertura; ordenar.",
+  "velas_abiertas_descartadas": 1,
+  "filas_validas": 1912,
+  "inicio": "2021-08-26T00:00:00+00:00",
+  "fin": "2026-11-19T00:00:00+00:00",
+  "timezone": "UTC",
+  "ajustes": "Sin dividendos ni particiones bursátiles. No se rellenan huecos.",
+  "symbol": "AVAXUSDT",
+  "source": "MEXC Spot",
+  "quote": "USDT",
+  "downloaded_at": "2026-11-20T14:15:54.822733+00:00",
+  "sha256_raw": "f6ee008281fe4750b0fb49145f1e33b61ec4839cdb70f1d491959cd8e661e639",
+  "sha256_processed": "761dab750b0165c795edf6c09d7db35c719b8b4fb34c8881d653dc857d523322",
+  "fecha_recuperada_utc": "2022-12-02",
+  "intervalo_recuperacion": "60m",
+  "archivo_recuperacion": "data/raw/AVAXUSDT_2022-12-02_recuperacion.json",
+  "sha256_recuperacion": "596a093b0226c3b1562f232ea684ed6833e1db27f988fa20d7d0f96855728f8a"
+}

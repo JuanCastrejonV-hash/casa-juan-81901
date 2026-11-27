@@ -1,0 +1,4 @@
+rendimiento_neto,max_drawdown,operaciones_cerradas,win_rate,costos,latencia_llm_ms_media,acciones_rechazadas,ciclos,patrimonio_final,estrategia
+-0.025381754589438033,0.02661319231239323,1,0.0,0.0,0.0,0,30,48730.9122705281,modelo_sin_llm
+-0.025381754589438033,0.02661319231239323,1,0.0,0.0,11397.76748416666,29,30,48730.9122705281,agente_con_llm
+-0.025381754589438033,0.02661319231239323,1,0.0,0.0,0.0,0,30,48730.9122705281,comprar_y_mantener

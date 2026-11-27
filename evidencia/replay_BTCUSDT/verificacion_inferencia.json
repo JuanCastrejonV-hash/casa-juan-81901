@@ -1,0 +1,40 @@
+{
+  "fecha_utc": "2026-11-22T20:14:50.553189+00:00",
+  "ciclos": 30,
+  "ollama": {
+    "url": "http://127.0.0.1:40935",
+    "model": "qwen3:0.6b",
+    "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+    "ollama_version": "0.40.16",
+    "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "processor": "x86_64",
+    "cpu_count": 9,
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen3",
+      "families": [
+        "qwen3"
+      ],
+      "parameter_size": "751.63M",
+      "quantization_level": "Q4_K_M"
+    },
+    "local": true,
+    "network_inference": "loopback"
+  },
+  "ollama_no_cloud": true,
+  "hilos_ollama": 6,
+  "inferencia_prediccion": "CPU, pesos entrenados en NVIDIA T4",
+  "versiones": {
+    "tensorflow-cpu": "2.21.0",
+    "keras": "3.13.2",
+    "scikit-learn": "1.6.1",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "error_absoluto_maximo_vs_colab": 5.820766570564101e-10,
+  "tolerancia_absoluta": 1e-07,
+  "sha256_predicciones_TE": "7bbb4d058541cd6b69e925ddd237ba706240575d5a552eb223e2efe5768d8493",
+  "sha256_zip_colab": "d6403268c2da12c8a79cf84e499dd1cb35a3f44c62aaaac0b55d04d794417d1f",
+  "sha256_codigo_ollama": "84b5f7516f43fd8ee4a123d2db4a83fe9121ae2f197c57875321d214f88e75a9"
+}

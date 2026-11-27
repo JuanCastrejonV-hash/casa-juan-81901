@@ -1,0 +1,7 @@
+requisito,estado,evidencia
+Catálogo de 15 activos,Implementado,15 configurados; disponibilidad se consulta a MEXC
+Datos reales mínimos y auditados,Disponible,15/15 muestras
+Entrenamiento T4 y TE final,Disponible,15/15 modelos
+Pruebas controladas,Verificado,33 pruebas; sin fallos
+20 ciclos y comparación,Pendiente,Requiere modelo y Ollama real
+Enlace personal de Colab,Pendiente de compartir,Obtener URL desde la cuenta del alumno; comprobar lectura
